@@ -4,8 +4,8 @@ Accompanying code for Panigrahi et al. 'ChemoTrack: A comprehensive dataset link
 
 The repository consists of the following files:
 
-(i) Imagej bubble tracking plug-in.zip: This contains the plugin for performing the segmentation and tracking of the raw microscopy images to obtain the csv files. This was developed by Dr. Luke Tweedy. 
+(i) Imagej bubble tracking plug-in.zip: This contains the plugin for performing the segmentation and tracking of the raw microscopy images to obtain the csv files. This was developed by Dr. Luke Tweedy (Cancer Research UK, Beatson). 
 
-(ii) analysis_cei_theta.py: This code processes the csv files to obtain CEI values.
+(ii) analysis_cei_theta.py: This code processes the csv files to compute chemotactic efficiency index (CEI) from the cell tracks.
 
-(iii) half_violin_atm.py: This code generates the half-violin plots.
+(iii) half_violin_atm.py: This code generates the half-violin plots for CEI.
