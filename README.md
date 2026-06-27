@@ -10,6 +10,16 @@ The repository consists of the following files:
 
 (iii) half_violin_atm.py: This code generates the half-violin plots for CEI and also computes the average CEI values in a concentration bin and saves it in a text file.
 
+(iv) analysis_combined_interp_conc.py: This code plots the average chemotactic index from the entire dataset (obtained from avg_cei_combo.csv) as a function of difference in chemoattractant concentration and background receptor occupancy (fig. 3A).
+
+(v) analysis_combined_interp_rocc.py: This code plots the average chemotactic index from the entire dataset (obtained from avg_cei_combo.csv) as a function of difference in receptor occupancy across a cell and background receptor occupancy (fig. 3B).
+
+(vi) analysis_combined_interp_recn.py: This code plots the average chemotactic index from the entire dataset (obtained from avg_cei_combo.csv) as a function of difference in number of active receptors between the front and rear of a cell, and background receptor occupancy (fig. 3D).
+
+(vii) analysis_combined_interp_recn_line.py: This code plots the average chemotactic index as a function of background receptor occupancy for different values of difference in number of active receptors between the front and rear (fig. 3E). 
+
+(viii) avg_cei_combo.csv: Average chemotactic index obtained by binning the data (from half_violin_atm.py) considering all measurements. The first column denotes chemoattractant concentration, second column denotes the difference between Cmax and Cmin, and the third column denotes the average chemotactic efficiency index. All concentrations are in nanoMolar. 
+
 
 Step by step instructions for processing the raw microscopy images and generating the cell tracks:
 1)	Open the images using Fiji.
