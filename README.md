@@ -20,6 +20,10 @@ The repository consists of the following files:
 
 (viii) avg_cei_combo.csv: Average chemotactic index obtained by binning the data (from half_violin_atm.py) considering all measurements. The first column denotes chemoattractant concentration, second column denotes the difference between Cmax and Cmin, and the third column denotes the average chemotactic efficiency index. All concentrations are in nanoMolar. 
 
+Instructions for accessing the data:
+ChemoTrack is publicly accessible under a  CC BY 4.0 license and is hosted in the following website: https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD3674
+To access the dataset concentration-wise, according to the format mentioned in the paper, please visit the HTTP site: https://ftp.ebi.ac.uk/pub/databases/biostudies/S-BIAD/674/S-BIAD3674/Files/ChemoTrack/
+Please note that the home page of ChemoTrack in Bioimage archive lists all the files in the dataset, and does not organize them according to the directory structure mentioned in the paper. This is the default organizational style of Bioimage archive. 
 
 Step by step instructions for processing the raw microscopy images and generating the cell tracks:
 1)	Open the images using Fiji.
