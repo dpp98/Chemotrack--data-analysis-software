@@ -12,6 +12,7 @@ REMOTE_ROOT = (
     "S-BIAD/674/S-BIAD3674/Files/ChemoTrack"
 )
 
+# replace this with a local directory in your PC
 LOCAL_ROOT = Path(
     "/media/devi/New Volume/ChemoTrack_download"
 )
