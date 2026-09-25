@@ -7,9 +7,10 @@ import subprocess
 # Configuration
 ###########################################################################
 
+## please check the domain name from the Bioimage Archive website
+## they change it sometimes and you need to paste the correct name below (case sensitive)
 REMOTE_ROOT = (
-    "ftp://ftp.ebi.ac.uk/pub/databases/biostudies/"
-    "S-BIAD/674/S-BIAD3674/Files/ChemoTrack"
+    "ftp://ftp.ebi.ac.uk/biostudies/fire/S-BIAD/674/S-BIAD3674/Files/ChemoTrack"
 )
 
 
