@@ -16,7 +16,7 @@ REMOTE_ROOT = (
 
 # replace this with a local directory in your PC
 LOCAL_ROOT = Path(
-    "/media/devi/New Volume/ChemoTrack_download"
+    "/home/devi/Documents/"
 )
 
 ###########################################################################
@@ -151,20 +151,19 @@ def download_condition(condition):
     #
     # We want to remove everything through "images".
     #
-    # There are 10 directories before DATE:
+    # The current REMOTE_ROOT path has these directories before DATE:
     #
-    # 1  pub
-    # 2  databases
-    # 3  biostudies
-    # 4  S-BIAD
-    # 5  674
-    # 6  S-BIAD3674
-    # 7  Files
-    # 8  ChemoTrack
-    # 9  condition
-    # 10 images
+    # 1  biostudies
+    # 2  fire
+    # 3  S-BIAD
+    # 4  674
+    # 5  S-BIAD3674
+    # 6  Files
+    # 7  ChemoTrack
+    # 8  condition
+    # 9  images
     #
-    # Therefore --cut-dirs=10 leaves:
+    # Therefore --cut-dirs=9 leaves:
     #
     # DATE/Pos.tif
     #######################################################################
@@ -178,7 +177,7 @@ def download_condition(condition):
 
         "--no-host-directories",
 
-        "--cut-dirs=10",
+        "--cut-dirs=9",
 
         "--accept=*.tif",
 
