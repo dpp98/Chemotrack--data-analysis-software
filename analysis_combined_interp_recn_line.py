@@ -33,10 +33,7 @@ for i in range(nlines):
     conc[i] = float(split[0])
     grad[i] = float(split[1])
     cei[i] = float(split[2])
-
-    if cei[i] < 0.0:
-        cei[i] = 0.0
-
+    
     rocc[i] = conc[i] / (conc[i] + Kd)
 
     grad_rocc = grad[i] * Kd / ((conc[i] + Kd) ** 2)
